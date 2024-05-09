@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<style>  
+
+    html {
+        --BackGround: rgb(8, 9, 30);
+        --Word: rgb(213, 213, 213);
+        --attention: rgb(230, 197, 9);
+        --WordOpacity: rgb(159, 159, 159);
+    
+    }
+    
+    * {
+        margin: 0;
+    }
+    
+    body {
+        background-color: var(--BackGround);
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-around;
+        color: var(--Word);
+    
+    }
+    
+    .header .Logo {
+        display: flex;
+        font-family: "Poetsen One", sans-serif;
+        font-size: 25px;
+        gap: 10px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    .header .Logo span {
+        color: var(--attention);
+    }
+    
+    .items {
+        margin: 15px;
+        display: flex;
+        gap: 30px;
+        transition: all 5s linear 0.3s;
+    
+    }
+    
+    .items div:hover {
+        color: var(--attention);
+        transform: rotate(20deg);
+        cursor: pointer;
+    }
+    
+    .contact {
+        display: flex;
+        gap: 10px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .Service {
+        padding: 50px;
+        justify-content: center;
+        margin: 0 auto;
+        max-height: 1000px;
+    }
+    
+    .Service-header {
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        color: var(--Word);
+        font-size: 70px;
+        text-shadow: 1px 1px 2px rgb(196, 217, 127);
+        margin-bottom: 50px;
+    }
+    
+    .service-block {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 300px 300px 300px;
+        color: var(--Word);
+        justify-content: center;
+        gap: 30px;
+    
+    }
+    
+    .service-items {
+        border: 1px solid var(--BackGround);
+        background-color: rgb(23, 20, 40);
+        box-shadow: 2px 4px 8px rgb(68, 67, 67);
+        transition: transform 5s ease-out;
+    }
+    
+    .service-items:hover {
+        transform: scale(1.2);
+    }
+    
+    .service-items .i {
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    
+    }
+    
+    
+    .service-items h5 {
+        display: flex;
+        justify-content: center;
+        padding: -10px;
+        color: var(--attention);
+    }
+    
+    .service-items p {
+        padding: 30px;
+        color: var(--Word);
+    }
+
+</style>
+<body>
+     <div class="header">
+            <div class="Logo">
+               <a href="../Project02/index.html" style="color: var(--Word);"> <i class="fa-brands fa-wolf-pack-battalion" style="font-size: 35px;" ></i> </a>
+                <div> <span>Quang</span> Anh</div>
+            </div>
+            <div class="items">
+                <div>HOME</div>
+                <div>ABOUT</div>
+                <div>RESUME</div>
+                <div>PORTFOLIO</div>
+                <div>BLOG</div>
+                <div>CONTACT</div>
+            </div>
+
+            <div class="contact">
+                <i class="fa-solid fa-phone"></i>
+                <div>01234567789</div>
+            </div>
+        </div>
+        <div class="Service">
+            <div class="Service-header">
+                <h3>MY PRODUCTION</h3>
+            </div>
+                <div class="service-block">
+                <div class="service-items">
+                    <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+                    <h5>Design</h5>
+                     <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                </div>
+                <div class="service-items">
+                    
+                <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+               <h5>Design</h5>
+                <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                
+                </div>
+                <div class="service-items">
+                    <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+                    <h5>Design</h5>
+                     <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                </div>
+                <div class="service-items">
+                    <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+                    <h5>Design</h5>
+                     <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                </div>
+                <div class="service-items">
+                    <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+                    <h5>Design</h5>
+                     <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                </div>
+                <div class="service-items">
+                    <div class="i"> <i class="fa-brands fa-docker"></i> </div>
+                    <h5>Design</h5>
+                     <p>I have 20 years of experience in design work, and , so hmmm, i can done all works in company like"Xach nuoc bo cam"</p>
+                </div>
+            </div>
+            </div>
+</body>
+</html>
